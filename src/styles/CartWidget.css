@@ -1,0 +1,12 @@
+.cart-widget {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.fa-cart-shopping {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
