@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { CartWidget } from "./CartWidget";
+
 
 
 export const NavBar = () => {
@@ -6,9 +8,9 @@ export const NavBar = () => {
     <div className="nav-bar">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             TomShop
-          </a>
+          </Link>
 
           <CartWidget />
           <button
@@ -26,19 +28,19 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ItemListContainer">
                   Guitars
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pianos
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Drums
-                </a>
+                <Link className="nav-link" to="/Contact">
+                  Contact
+                </Link>
 
               </li>
             </ul>

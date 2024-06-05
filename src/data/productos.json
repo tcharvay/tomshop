@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Guitar",
+        "brand": "Fender",        
+        "description": "Fender Stratocaster  American Proffesional 2",
+        "price": 1000,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113902706_fen_ins_frt_1_rr.jpg" 
+    },
+    {
+        "id": 2,
+        "title": "Guitar",
+        "brand": "Fender",        
+        "description": "Fender Stratocaster  American Proffesional2 H S S",
+        "price": 1100,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113910755_fen_ins_frt_1_rr.jpg" 
+
+    },
+    {
+        "id": 3,
+        "title": "Guitar",
+        "brand": "Fender",        
+        "description": "Fender Stratocaster  American Proffesional2 Left-Hand",
+        "price": 1100,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113930719_fen_ins_frt_1_rl.jpg" 
+
+    }
+
+]
