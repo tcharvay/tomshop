@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Guitar",
+        "category": "Guitar",
         "brand": "Fender",        
         "description": "Fender Stratocaster  American Proffesional 2",
         "price": 1000,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "title": "Guitar",
+        "category": "Guitar",
         "brand": "Fender",        
         "description": "Fender Stratocaster  American Proffesional2 H S S",
         "price": 1100,
@@ -18,12 +18,40 @@
     },
     {
         "id": 3,
-        "title": "Guitar",
+        "category": "Guitar",
         "brand": "Fender",        
         "description": "Fender Stratocaster  American Proffesional2 Left-Hand",
         "price": 1100,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113930719_fen_ins_frt_1_rl.jpg" 
 
+    },
+    {
+        "id": 4,
+        "category": "Bass",
+        "brand": "Fender",        
+        "description": "Fender Stratocaster  American Proffesional2 Left-Hand",
+        "price": 1100,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0193932706_fen_ins_frt_1_rr.jpg" 
+
+    },
+    {
+        "id": 5,
+        "category": "Bass",
+        "brand": "Fender",        
+        "description": "Fender American Proffesional2 Jazz Bass",
+        "price": 1100,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0193972763_fen_ins_frt_1_rr.jpg" 
+
+    },
+    {
+        "id": 6,
+        "category": "Bass",
+        "brand": "Fender",        
+        "description": "Fender American Ultra Precision Bass",
+        "price": 1100,
+        "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0199010712_gtr_frt_001_rr.jpg" 
+
     }
+
 
 ]

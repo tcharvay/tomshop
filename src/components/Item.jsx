@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/item.css';
+
+
 import { Link } from "react-router-dom";
 export default function Item({producto}) {
   return (
@@ -9,7 +11,7 @@ export default function Item({producto}) {
       <img src={producto.image} alt="" />
       <p>Price $:{producto.price}</p>
       <p>{producto.description}</p>
-      <Link className=" View" to={`/item/${producto.id}`}>View</Link>
+      <Link className="View" to={`/item/${producto.id}`}>View</Link>
 
     </div>
   );
