@@ -2,15 +2,38 @@
 .item-card {
     background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     flex-direction: column;
     width: 250px;
-
+    margin:10px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;   
 }
 
 img {
     width: 125px;
     display: flex;
     justify-content: center;
+}
+
+.description {
+    font-weight: 500; 
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    width:90px;
+    border-radius: 3px;
+}
+
+.view:hover {
+background-color: rgb(216, 0, 0) ;
 }

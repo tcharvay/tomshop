@@ -1,44 +1,38 @@
-
-import './App.css'
-import './styles/NavBar.css'
-import './styles/ItemListContainer.css'
-
-import './styles/CartWidget.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
-import { NavBar } from './components/NavBar'
-import ItemListContainer from './components/ItemListContainer'
-import ItemDetailContainer from './components/ItemDetailContainer'
-import CategoryProduct from './components/CategoryProduct'
-import Contact from './components/Contact'
-
-
-
-
-
+import "./App.css";
+import "./styles/NavBar.css";
+import "./styles/ItemListContainer.css";
+import "./styles/CartWidget.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { NavBar } from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import CategoryProduct from "./components/CategoryProduct";
+import Contact from "./components/Contact";
+import CartContainer from "./components/CartContainer";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
-
-
   return (
     <div>
-      <BrowserRouter>
-        < NavBar />
+      <CartProvider>
+        <BrowserRouter>
+          <NavBar />
 
-        <Routes>
-            <Route path= '/' element={< ItemListContainer />} />
-            <Route path= '/ItemListContainer' element={< ItemListContainer />} />
-            <Route path= '/ItemListContainer/:category' element={< ItemListContainer />} />
-            <Route path= '/item/:id' element={< ItemDetailContainer />} />
-            <Route path= '/CategoryProduct' element={ < CategoryProduct />} />
-            <Route path= '/contact' element={ < Contact />} />
-        </Routes>      
-        
-        
-
-      </BrowserRouter>
+          <Routes>
+            <Route path="/CartContainer" element={<CartContainer />} />
+            <Route path="/" element={<ItemListContainer />} />
+            <Route path="/ItemListContainer" element={<ItemListContainer />} />
+            <Route path="/ItemListContainer/:category"
+              element={<ItemListContainer />}
+            />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/CategoryProduct" element={<CategoryProduct />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+      </CartProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

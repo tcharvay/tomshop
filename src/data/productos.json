@@ -3,7 +3,8 @@
         "id": 1,
         "category": "Guitar",
         "brand": "Fender",        
-        "description": "Fender Stratocaster  American Proffesional 2",
+        "description": "Fender Stratocaster  American Proffesional",
+        "specs": "The American Professional II Stratocaster® draws from more than sixty years of innovation, inspiration and evolution to meet the demands of today's working player. Our popular Deep C neck now sports smooth rolled fingerboard edges, a Super-Natural satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. New V-Mod II Stratocaster single-coil pickups are more articulate than ever while retaining bell-like chime and warmth. An upgraded 2-point tremolo with a cold-rolled steel block increases sustain, clarity and high-end sparkle. The American Pro II Stratocaster delivers instant familiarity and sonic versatility you'll feel and hear right away, with broad ranging improvements that add up to nothing less than a new standard for professional instruments.",
         "price": 1000,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113902706_fen_ins_frt_1_rr.jpg" 
     },
@@ -11,7 +12,7 @@
         "id": 2,
         "category": "Guitar",
         "brand": "Fender",        
-        "description": "Fender Stratocaster  American Proffesional2 H S S",
+        "description": "Fender Stratocaster  American Proffesional H S S",
         "price": 1100,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113910755_fen_ins_frt_1_rr.jpg" 
 
@@ -20,7 +21,7 @@
         "id": 3,
         "category": "Guitar",
         "brand": "Fender",        
-        "description": "Fender Stratocaster  American Proffesional2 Left-Hand",
+        "description": "Fender Stratocaster  American Proffesional Left-Hand",
         "price": 1100,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113930719_fen_ins_frt_1_rl.jpg" 
 
@@ -29,8 +30,8 @@
         "id": 4,
         "category": "Bass",
         "brand": "Fender",        
-        "description": "Fender Stratocaster  American Proffesional2 Left-Hand",
-        "price": 1100,
+        "description": "Fender Stratocaster  American Proffesional",
+        "price": 1200,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0193932706_fen_ins_frt_1_rr.jpg" 
 
     },
@@ -38,8 +39,8 @@
         "id": 5,
         "category": "Bass",
         "brand": "Fender",        
-        "description": "Fender American Proffesional2 Jazz Bass",
-        "price": 1100,
+        "description": "Fender American Proffesional Jazz Bass",
+        "price": 1400,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0193972763_fen_ins_frt_1_rr.jpg" 
 
     },
@@ -48,7 +49,7 @@
         "category": "Bass",
         "brand": "Fender",        
         "description": "Fender American Ultra Precision Bass",
-        "price": 1100,
+        "price": 1200,
         "image" : "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0199010712_gtr_frt_001_rr.jpg" 
 
     }

@@ -1,4 +1,42 @@
-.item-det {
+
+.item-det{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    margin-top: 25px;
 }
+.item-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
+    background-color: #FFFFFF;
+    width: 900px;
+    height: 600px;
+    margin:10px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;  
+}
+
+.description-d{
+    font-weight: 500; 
+}
+
+.img-d {
+    transform: rotate(90deg);
+    margin-top: -150px;
+    margin-bottom: -100px;
+}
+
+.view button {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.view button:hover {
+    background-color: rgb(216, 0, 0);
+}
+

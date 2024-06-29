@@ -3,15 +3,33 @@ import pedirProductos from './pedirProductos';
 import ItemList from './ItemList';
 import '../styles/ItemList.css';
 import { useParams } from 'react-router-dom';
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../firebase/config";
+
 const ItemListContainer = () => {
 
-    const [productos, setProductos] = useState([]);
-    console.log(productos)
+    const {category} = useParams();
+    const [productos, setProductos] = useState([]);   
+       
 
-    const{category} = useParams();
-    
-    
+    useEffect( () => {
 
+        const productosRef = collection(db, "productos");        
+        const q = category ? query(productosRef, where("category", "==", category)) : productosRef;
+
+        getDocs(q)
+            .then((res) =>  
+                {
+                    setProductos(
+                        res.docs.map((doc => {
+                            return {...doc.data(), id: doc.id}
+                        })
+                    )
+                    )
+                }) 
+           }, [category])
+
+    /*
     useEffect( () => {
 
         pedirProductos(category)
@@ -19,7 +37,7 @@ const ItemListContainer = () => {
                 setProductos(res);
                 console.log(productos)
         })
-    }, [category])
+    }, [category])*/
 
     return (
         < ItemList productos={productos} />

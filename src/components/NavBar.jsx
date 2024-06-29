@@ -3,7 +3,7 @@ import { CartWidget } from "./CartWidget";
 
 
 
-export const NavBar = () => {
+export const NavBar = (props) => {
   return (
     <div className="nav-bar">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -11,8 +11,11 @@ export const NavBar = () => {
           <Link className="navbar-brand" to="/">
             TomShop
           </Link>
-
+          <Link className="nav-link" to="/CartContainer">
           <CartWidget />
+
+          </Link>
+          
           <button
             className="navbar-toggler"
             type="button"
