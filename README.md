@@ -5,3 +5,6 @@ TomShop, tienda de guitarras.
 - React
 - Bootstrap
 - Firebase
+
+Deploy:
+https://tomshop.netlify.app/
