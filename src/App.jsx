@@ -10,6 +10,7 @@ import CategoryProduct from "./components/CategoryProduct";
 import Contact from "./components/Contact";
 import CartContainer from "./components/CartContainer";
 import { CartProvider } from "./context/CartContext";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/item/:id" element={<ItemDetailContainer />} />
             <Route path="/CategoryProduct" element={<CategoryProduct />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </BrowserRouter>
       </CartProvider>

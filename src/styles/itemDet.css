@@ -30,13 +30,13 @@
     margin-bottom: -100px;
 }
 
-.view button {
+.view {
     background-color: red;
     border: none;
     color: white;
 }
 
-.view button:hover {
+.view:hover {
     background-color: rgb(216, 0, 0);
 }
 

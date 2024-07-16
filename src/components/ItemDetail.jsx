@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import "../styles/item.css";
 import "../styles/itemDet.css";
 
 import { CartContext } from '../context/CartContext'
@@ -21,7 +20,7 @@ const { agregarAlCarrito } = useContext(CartContext);
       <img className="img-d" src={producto.image} alt="" />
       <p className="description-d">{producto.description}</p>
       <p>Price: ${producto.price}</p>
-      <button  className="view" onClick={handleAgregar}>Add to cart </button>
+      <button  className="view" onClick={handleAgregar}>Add to cart</button>
     </div>
   );
 };

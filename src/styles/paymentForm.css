@@ -1,0 +1,60 @@
+/* src/FormComponent.css */
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .div-form {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    margin-bottom: 0.5em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+  }
+  
+  .submit-btn {
+    padding: 2px 25px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .div-cancel-btn {
+    display: flex;
+    justify-content: end;
+    width: 368px;
+  }
+  
+  .cancel-btn {
+    background-color: red;
+    color:white;
+    margin:5px;
+    padding: 2px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;   
+  }
+
+  .cancel-btn:hover{
+    background-color: rgb(216, 0, 0);
+  }

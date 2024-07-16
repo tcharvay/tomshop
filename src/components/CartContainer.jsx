@@ -1,6 +1,7 @@
 import React, { useContext } from "react"
 import { CartContext } from "../context/CartContext"
 import { Link } from "react-router-dom";
+import '../styles/cartContainer.css'
 
 const Carrito = () => {
 
@@ -11,15 +12,17 @@ const Carrito = () => {
     }
 
   return (
-    <div>
+    <div className="cart-content">
       {carrito.map((prod) => <p> {prod.description} - Price ${prod.price}</p>)}
       {
         carrito.length > 0 ?
-            <>
-                <p> Total: ${calcularTotal()}</p>  
-                <button className='view'onClick={handleVaciar}>Empty Cart</button>
-                <Link to="/checkout">Checkout</Link>
-            </> :
+            <div className="checkout">
+                <p className="total"> Total: ${calcularTotal()}</p>
+                <div>
+                  <button className='empty-btn'onClick={handleVaciar}>Empty Cart</button>
+                  <button className="checkout-btn"><Link className='checkout-link'to="/checkout">Checkout</Link></button>
+                </div>
+            </div> :
             <p>Cart Empty</p>
       }
     </div>
